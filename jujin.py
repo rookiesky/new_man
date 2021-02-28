@@ -83,6 +83,7 @@ def main():
         time.sleep(2)
 
 def boot():
+    global cate
     url = [{'cate_id':'6809637767543259144','cate':'web前端'},{'cate_id':'6809637769959178254','cate':'编程语言'}]
     for item in url:
         cate = item['cate']
