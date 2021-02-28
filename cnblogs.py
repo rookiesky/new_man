@@ -74,7 +74,7 @@ def articleList(url):
     
 
 
-def main()
+def main():
     url = 'https://www.cnblogs.com'
     articleList(url)
     if len(list_url) <= 0:
